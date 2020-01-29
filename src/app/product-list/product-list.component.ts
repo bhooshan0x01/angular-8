@@ -13,6 +13,10 @@ export class ProductListComponent {
   share() {
     window.alert('The product has been shared!');
   }
+  onNotify()
+  {
+    window.alert("Notify is working and it's defination is in parent compnent list ts file and property is in child product alerts ts file");
+  }
 }
 
 
